@@ -1,6 +1,6 @@
 # raga-zipf-law
 
-Code for *Zipf–Mandelbrot scaling in Hindustani raga notation: the musical unit, the vadi and the pakad* (Vivaan Gupta, 2026).
+Code for *Zipf–Mandelbrot scaling in Hindustani raga notation* (Vivaan Gupta, 2026).
 
 The analysis fits Zipf–Mandelbrot rank–frequency laws to 116 notated compositions in ragas Bhairav, Todi and Poorvi from the SANGEET dataset, compares three units of analysis (pitch, duration, pitch × duration), checks where each raga's prescribed vadi and samvadi rank, and tests whether the prescribed pakad is over-represented against a within-composition shuffle null.
 
