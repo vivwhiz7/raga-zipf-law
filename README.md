@@ -26,6 +26,7 @@ The scripts read `../Sangeet/Bhatkhande Dataset/{Bhairav,Todi,Poorvi}-*.xml`.
 ```bash
 python3 run_final.py        # fits, bootstrap, permutation tests (about 2 minutes); writes output/results.json
 python3 make_figs_final.py  # figures, 300 dpi
+python3 make_figs_column.py # single-column Figures 1 and 2 as printed in the paper
 ```
 
 Both write to `output/`. The numbers reported in the paper are in `output/results.json`.
@@ -40,6 +41,7 @@ Both write to `output/`. The numbers reported in the paper are in `output/result
 | `zm_stats.py` | Composition-level bootstrap and pakad permutation test |
 | `run_final.py` | Runs the full analysis and prints a log |
 | `make_figs_final.py` | Figures 1–4 |
+| `make_figs_column.py` | Single-column versions of the two figures in the paper |
 
 ## Method notes
 
